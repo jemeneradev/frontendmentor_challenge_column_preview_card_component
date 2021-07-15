@@ -9,7 +9,9 @@ export default function Card(props) {
     const bcolor = `#${props.carBColor}`
     return (
     <div className={CardStyles.card} style={{backgroundColor:bcolor}}>
-        <Image className={CardStyles.cardLogo} src={imgsrc}  alt={imgalt} width="64" height="40" />
+        <div className={CardStyles.cardLogo}>
+            <Image src={imgsrc}  alt={imgalt} width="64" height="40" />
+        </div>
         <h2 className={CardStyles.title}>
           {props.carType}
         </h2>

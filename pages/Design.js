@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Card() {
     return (
         <div className={DesignStyles.svgImage}>
-        {/* <Image
+        {/* {<img
             src="/images/design-mobile.svg" 
             srcSet="
             /images/design-desktop.svg 920w,
@@ -11,7 +11,7 @@ export default function Card() {
             "
             sizes="(min-width: 920px) 920px, 327px"
             alt="design"
-            /> */}
+            />} */}
         </div>
         
     )
