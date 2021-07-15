@@ -61,11 +61,21 @@
   margin-top: 25px;
 }
 
+.learn:hover {
+  background-color: transparent;
+  -webkit-box-shadow: 0px 0px 0px 2px hsl(0, 0%, 95%); 
+  box-shadow: 0px 0px 0px 2px hsl(0, 0%, 95%);
+}
+
 .learn_a {
   position: absolute;
   top: 11px;
   left: 22px;
   width: 70%;
+}
+
+.learn:hover > .learn_a {
+  color: hsl(0, 0%, 95%) !important;
 }
 
 @media (min-width:920px) {
