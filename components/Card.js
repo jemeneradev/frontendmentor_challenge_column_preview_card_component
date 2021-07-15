@@ -6,7 +6,7 @@ import Image from 'next/image'
 export default function Card(props) {
     const imgsrc = `/images/${props.carType}.svg`
     const imgalt = `${props.carType} Car`
-    const bcolor = `#${props.carBColor}`
+    const bcolor = `${props.carBColor}`
     return (
     <div className={CardStyles.card} style={{backgroundColor:bcolor}}>
         <div className={CardStyles.cardLogo}>

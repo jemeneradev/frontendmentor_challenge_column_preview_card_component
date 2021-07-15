@@ -7,6 +7,7 @@
   --left-space: 49px;
   line-height: 48px;
   border-radius: 8px 8px 0 0;
+  color:hsl(0, 0%, 95%);
 }
 
 .logowrapper {
@@ -24,7 +25,7 @@
   font-weight: normal;
   font-size: 15px;
   line-height: 25px;
-  color: white;
+  color: hsla(0, 0%, 100%, 0.75);
   width: 70%;
   margin-top: 16px;
   margin-left: var(--left-space);
@@ -34,7 +35,6 @@
   /* identical to box height */
   font-family: Big Shoulders Display;
   font-style: normal;
-  color: white;
   font-weight: 300;
   font-size: 2.52em;
   font-weight: 700;
@@ -55,8 +55,7 @@
   text-decoration: none;
   width: 146px;
   height: 48px;
-  background-color: white;
-  color: red;
+  background-color: hsl(0, 0%, 95%);
   border-radius: 25px;
   text-align: center;
   margin-top: 25px;
