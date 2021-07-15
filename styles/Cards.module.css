@@ -1,0 +1,36 @@
+.carList {
+    position: relative;
+    list-style: none;
+    width:327px;
+    height: 1326px;
+    margin: 0;
+    padding: 0;
+    border-radius: 8px 8px 8px 8px;
+    overflow: hidden;
+    /* opacity: .5; */
+}
+
+.carListItem {
+    margin-top: -10px;
+}
+.carListItem:first-child {
+    margin-top: 0;
+}
+
+@media (min-width:920px) {
+    .carList {
+        display: flex;
+        width: 920px;
+        height: 500px;
+    }
+    .carListItem {
+        margin-top: 0px;
+        margin-left: -19px;
+    }
+    .carListItem:first-child {
+        margin-left: 0px;
+    }
+    .carListItem:last-child {
+        margin-left: -20px;
+    }
+}

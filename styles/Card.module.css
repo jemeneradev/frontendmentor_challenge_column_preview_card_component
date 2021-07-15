@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;700&family=Lexend+Deca&display=swap');
+
+
+.card {
+  width: 327px;
+  height: 452px;
+  --left-space: 49px;
+  line-height: 48px;
+  border-radius: 8px 8px 0 0;
+}
+
+.logowrapper {
+  position: relative;
+}
+
+.cardLogo {
+  margin-left: var(--left-space);
+  margin-top: 48px;
+}
+
+.message {
+  font-family: Lexend Deca;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: white;
+  width: 70%;
+  margin-top: 16px;
+  margin-left: var(--left-space);
+}
+
+.title {
+  /* identical to box height */
+  font-family: Big Shoulders Display;
+  font-style: normal;
+  color: white;
+  font-weight: 300;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 16px;
+  margin-left: var(--left-space);
+  margin-bottom: 25px;
+}
+
+.learn {
+  position: relative;
+  font-family: Lexend Deca;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  margin-left: var(--left-space);
+  text-decoration: none;
+  width: 146px;
+  height: 48px;
+  background-color: white;
+  color: red;
+  border-radius: 25px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.learn_a {
+  position: absolute;
+  top: 11px;
+  left: 22px;
+  width: 70%;
+}
+
+@media (min-width:920px) {
+  .card {
+    --left-space: 48px;
+    height: 500px;
+    width: 326px;
+    border-radius: 8px 8px 8px 8px;
+  }
+  .message {
+    width: 64%;
+  }
+  .learn {
+    margin-top: 83px;
+  }
+}
