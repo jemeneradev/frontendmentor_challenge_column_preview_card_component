@@ -1,4 +1,16 @@
-.body {
-    margin:0;
-    backgroundColor:hsl(0, 0%, 95%);
+body {
+    margin:10px;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: min-content;
+}
+
+@media (min-width:920px) {
+    body {
+        margin: 0;
+        height: 100vh;
+    }
+    
 }
