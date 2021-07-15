@@ -1,6 +1,7 @@
 import CardStyles from '../styles/Card.module.css'
 
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Card(props) {
     const imgsrc = `/images/${props.carType}.svg`
@@ -8,7 +9,7 @@ export default function Card(props) {
     const bcolor = `#${props.carBColor}`
     return (
     <div className={CardStyles.card} style={{backgroundColor:bcolor}}>
-        <img className={CardStyles.cardLogo} src={imgsrc}  alt={imgalt} width="64" height="40" />
+        <Image className={CardStyles.cardLogo} src={imgsrc}  alt={imgalt} width="64" height="40" />
         <h2 className={CardStyles.title}>
           {props.carType}
         </h2>
